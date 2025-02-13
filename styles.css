@@ -1,6 +1,9 @@
-* {
-    background-color: #343434;
+body {
     font-family: 'Courier New', Courier, monospace;
+    padding: 16px;
+    background-color: #272727;
+    min-height: 100vh;
+    color: white;
 }
 
 h1 {
@@ -23,7 +26,7 @@ ul {
 ul li {
     border: 2px solid lightgray;
     padding: 10px;
-    color: darkgrey;
+    color: #272727;
     background-color: lightgray;
     border-radius: 5px;
     text-decoration: none;
@@ -38,6 +41,12 @@ ul li a {
     flex: 1;
 }
 
-li:hover {
+a {
+    background-color: transparent;
+    color: white;
+    text-decoration: underline;
+}
+
+ul li:hover {
     background-color: white;
 }
